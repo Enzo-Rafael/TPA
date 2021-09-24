@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UACompatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>IMC Calculadora </title>
+   <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+         <h1>Calculadora</h1>
+    </header>
+    
+    <section>
+        <div class="input">
+            <label>Nome:</label>
+            <input placeholder="Qual é o seu nome?" type="text" id='nome' required="required">
+        </div>
+        <div class="input">
+            <label>Altura:</label>
+            <input  placeholder="Qual é a sua altura (m)? Ex: 1,60"  type="number" id='altura'required="required">
+        </div>
+        <div class="imput">
+            <label>Peso:</label>
+            <input placeholder="Qual é o seu peso (kg)? Ex: 70" type="number" id='peso' required="required" >
+        </div>
+        <button id='calcular'>Calcular</button>
+        <div class="result" id='resultado'></div>
+    </section>
+    <footer>
+        <p>Atenção! O IMC deve ser interpretado somente por um profissional de saúde. </p>
+    </footer>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
